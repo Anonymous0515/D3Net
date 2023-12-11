@@ -1,7 +1,7 @@
 
 ## Dynamic Degradation Decomposition Network for All-in-One Image Restoration
 
-PyTorch implementation for Dynamic Degradation Decomposition Network for All-in-One Image Restoration (D `<sup>3</sup>`Net)
+PyTorch implementation for Dynamic Degradation Decomposition Network for All-in-One Image Restoration (D$^{3}$Net)
 
 ## 🔧Dependencies and Installation
 
@@ -11,7 +11,7 @@ PyTorch implementation for Dynamic Degradation Decomposition Network for All-in-
 
 ### Installation
 
-You can install the environment dependencies for D `<sup>3</sup>`net using the following command.
+You can install the environment dependencies for D$^{3}$net using the following command.
 
 1. Clone repo
 
@@ -41,7 +41,7 @@ Low-light enhancement: [LOL](https://daooshee.github.io/BMVC2018website/)
 
 ## 💻Training
 
-We provide the training code for D `<sup>3</sup>`Net (used in our paper). You could improve it according to your own needs.
+We provide the training code for D$^{3}$Net (used in our paper). You could improve it according to your own needs.
 
 **Procedures**
 
@@ -69,7 +69,7 @@ python test.py --image_path your_testImagePath --save_path your_savePath --epoch
 
 Our paper is currently in the review stage, and we look forward to your reading. Here are the results of our qualitative experiments.
 
-![all-in-one](.\\results\\all-in-oneResult.png "Qualitative results")
+![all-in-one](./all-in-oneResult.png "Qualitative results")
 
 ## 🤗 Acknowledgement
 
