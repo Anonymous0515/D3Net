@@ -1,7 +1,7 @@
 
 ## Dynamic Degradation Decomposition Network for All-in-One Image Restoration
 
-PyTorch implementation for All-In-One Image Restoration for Unknown Corruption (D$^3$Net)
+PyTorch implementation for Dynamic Degradation Decomposition Network for All-in-One Image Restoration (D `<sup>3</sup>`Net)
 
 ## 🔧Dependencies and Installation
 
@@ -11,7 +11,7 @@ PyTorch implementation for All-In-One Image Restoration for Unknown Corruption (
 
 ### Installation
 
-You can install the environment dependencies for D$^3$net using the following command.
+You can install the environment dependencies for D `<sup>3</sup>`net using the following command.
 
 1. Clone repo
 
@@ -41,7 +41,7 @@ Low-light enhancement: [LOL](https://daooshee.github.io/BMVC2018website/)
 
 ## 💻Training
 
-We provide the training code for D$^3$Net (used in our paper). You could improve it according to your own needs.
+We provide the training code for D `<sup>3</sup>`Net (used in our paper). You could improve it according to your own needs.
 
 **Procedures**
 
@@ -64,6 +64,12 @@ If you want to test our model and obtain PSNR and SSIM, you first need to fill i
 ```
 python test.py --image_path your_testImagePath --save_path your_savePath --epoch your_test_Epoch_Number --model_folder your_model_folder --target_data_dir your_GT_ImagePath
 ```
+
+## 📖Results
+
+Our paper is currently in the review stage, and we look forward to your reading. Here are the results of our qualitative experiments.
+
+![all-in-one](.\\results\\all-in-oneResult.png "Qualitative results")
 
 ## 🤗 Acknowledgement
 
