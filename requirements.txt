@@ -97,10 +97,7 @@ tifffile
 timm==0.5.4
 tokenizers==0.13.3
 toolz
-torch==2.0.0+cu118
-torchaudio==2.0.1+cu118
 torchmetrics==1.1.1
-torchvision==0.15.1+cu118
 tqdm==4.66.1
 transformers==4.25.1
 triton==2.0.0
