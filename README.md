@@ -2,7 +2,7 @@
 
 PyTorch implementation for Dynamic Degradation Decomposition Network for All-in-One Image Restoration (D$`^3`$Net).
 
-## 🔧Dependencies and Installationy
+## 🔧Dependencies and Installation
 
 - Python == 3.8.12 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - Pytorch == 2.0.0
